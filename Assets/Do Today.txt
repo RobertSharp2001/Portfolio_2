@@ -1,0 +1,79 @@
+Done:
+Player
+ - player controller move relative to mouse
+ - player gun fires at mosue position
+
+Visual
+ - Star particle field follows player
+ - custom mouse cursor
+ - ammo bar
+ - health bar
+ - wave number
+ - enemy counter
+
+Score system:
+ - Player gets score for killing enemies
+ - Score increases over time
+
+Item pickups
+ - Ammo pick up restores ammo
+ - health pick up restores health
+
+Chaser enemy
+ - chaser enemy avoiding obstacles
+ - chaser enemy follows player
+ - chaser enemy shoots at player
+
+ Twin enemy
+ - Uses two guns, slower than the chaser but has more health
+ - Twin enemy avoiding obstacles
+ - Twin enemy follows player
+ - Twin enemy shoots at player
+
+Turret enemy
+ - turret enemy shoots at player & asteroid in range
+ - Turret enemy looks at closest target
+
+Asteroid field
+ - Asteroid spawn & despawn system
+ - asteroid keep in range of player
+ - asteroids die when shot
+ - asteroids can damaage the player
+
+Keep in range system
+ - enemies now stay in range
+ - enemeis that do nothing for over 1000f are now deleted
+
+Spawner system
+ - can now spawn enemies from an object pool
+ - enemies now respawn correctly when reactivated
+ - fixed enemies keeping dead sprite on respawn
+ 
+Compass to nearest enemy
+
+Sounds system:
+ - Player sounds are done.
+ - Enemy sounds are done.
+
+Wave system 
+ - spawns a specific number of enemies when a wave starts
+ - spawn a percentage of the pooled objects
+ - variable / can be setup for up as neccesary
+ 
+Menu system:
+ - Start menu
+ - Respawn menu
+ - End menu
+
+Drone Enemy
+ - chases player
+ - explodes on contact with player.
+
+Finish highscore system
+
+Next stuff:
+
+
+Enemy drops
+
+
