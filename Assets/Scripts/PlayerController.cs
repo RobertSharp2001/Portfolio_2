@@ -45,6 +45,10 @@ public class PlayerController : MonoBehaviour{
                 HandleBullet();
             }
 
+            if (Input.GetKeyDown(KeyCode.R)) {
+                GameManager.resetAmmo();
+            }
+
             GetMoveInput();
             //stop the player object from being dislocated by colliders
             GameObject.Find("Player_Sprite").transform.localPosition = new Vector3(0, 0, 0);

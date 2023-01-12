@@ -22,4 +22,8 @@ public class ManagerScene : MonoBehaviour{
     public void endGame(){
         SceneManager.LoadScene(2);
     }
+
+    public void Quit(){
+        Application.Quit();
+    }
 }
